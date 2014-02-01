@@ -1,0 +1,21 @@
+{
+  "name": "Test typing tutor",
+  "version": "0.0.1",
+  "homepage": "https://github.com/josisusan/typing_tutor",
+  "authors": [
+    "josisusan <josisusan@gmail.com>"
+  ],
+  "dependencies": {
+    "jquery": "2.1.0"
+  },
+  "description": "Test Typing",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
