@@ -1,0 +1,6 @@
+%h2= "Hello"
+%form{action: "/add_content",method: "post"}
+  %label{for: "content"} TextContent:
+  %textarea{name: "content"}
+
+  %input{type: "submit", value: "Send"}
