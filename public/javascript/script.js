@@ -4,6 +4,12 @@ $(document).on('ready', function(){
     format: 'MS',
     onExpiry: showBox
   });
+  $('#start_button').on('click', function(){
+    $('.timer').countdown('resume');
+  });
+  $('#pause_button').on('click', function(){
+    $('.timer').countdown('pause');
+  });
 });
 
 function showBox(){
