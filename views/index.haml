@@ -1,1 +1,13 @@
 %h1 Welcome to the index page
+
+%div
+  = @content.content
+%form 
+  %div{class: "text_box_area"}
+    %textarea{rows: "10", cols: "50"}
+
+  %div{class: "game_buttons"}
+    %input{type: "button", value: "Start"}
+    %input{type: "button", value: "Pause"}
+
+  %div{class: "timer"}
